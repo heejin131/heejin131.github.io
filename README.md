@@ -51,5 +51,6 @@ $ firebase deploy
 - github pages -> docs
 - pnpm docs:build
 - git add . ;git commit -a;git push
-- https://teamsunsin.shop
+- https://blog.journeyjean.shop
+- PR은 main에 merge 후 release
 ```
