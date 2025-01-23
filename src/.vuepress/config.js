@@ -9,13 +9,13 @@ export default defineUserConfig({
   
   lang: 'en-US',
 
-  title: 'team sunsin',
-  description: "sunsin team's blog about the spirit of sunsin",
+  title: 'IM 희진',
+  description: "'어떻게 더 잘 해낼 수 있는 지 끊임없이 생각하고 자신에게 질문을 던져라' 단단한 기술력을 가지고 있는 신입 데이터 개발자의 첫걸음",
 
   head: [
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:title', content: 'heejin-blog:team SUNSIN' }],
-    ['meta', { property: 'og:description', content: "Im heejin, who likes to study code." }],
+    ['meta', { property: 'og:description', content: "Im Heejin, who is the beginner in  programming." }],
     ['meta', { property: 'og:image', content: 'https://heejin131.github.io/images/preview.png' }],
     ['meta', { property: 'og:url', content: 'https://blog.journeyjean.shop' }],
   ],
@@ -25,13 +25,13 @@ export default defineUserConfig({
     // As a special case, the default locale can use '/' as its path.
     '/en/': {
       lang: 'en-US',
-    //   title: 'tech-blog:cashmallow',
-    //   description: "cashmallow dev team's technology blog about wanting to contribute to the open source ecosystem",
+    //   title: 'HEEJIN-blog:team sunsin',
+    //   description: "'Continuously think about how you can do better and keep asking yourself questions.' The first step of a rookie data developer with solid technical skills.",
     },
     '/': {
       lang: 'ko-KR',
-    //   title: 'tech-blog:cashmallow',
-    //   description: "cashmallow dev team's technology blog about wanting to contribute to the open source ecosystem",
+    //   title: '희진-blog:순신샵',
+    //   description: "'어떻게 더 잘 해낼 수 있는 지 끊임없이 생각하고 자신에게 질문을 던져라' 단단한 기술력을 가지고 있는 신입 데이터 개발자의 첫걸음",
     },
   },
 
